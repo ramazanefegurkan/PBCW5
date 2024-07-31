@@ -19,13 +19,6 @@
 - Validation rules ensure data integrity and enforce business rules.
 - Fluent Validation is integrated into MediatR's behavior pipeline to validate requests before they are processed.
 
-### 4. Dependency Injection with Autofac
-- Autofac is used for managing dependencies.
-- All services and repositories are registered in Autofac Container for Dependency Injection.
-
-### 5. Middleware for Logging Requests and Responses
+### 4. Middleware for Logging Requests and Responses
 - A middleware logger class is designed to log all incoming requests and outgoing responses.
 - This ensures that every interaction with the API is tracked and can be reviewed for debugging and auditing purposes.
-
-### 6. Reporting with Dapper
-- A reporting method is created using Dapper for `Customer` and its related models.
